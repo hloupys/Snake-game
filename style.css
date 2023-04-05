@@ -1,0 +1,49 @@
+body 
+{
+	text-align: center;
+	font-family: bahnschrift light;
+	color: #F6F3EF;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+	overflow: hidden; 
+	background-image: url(https://lemoncraft.ru/forum/uploads/monthly_2020_12/cyber.gif.e7e2a0a3e8197bea9102d5fc7ccc554e.gif);
+	background-repeat: no-repeat;
+}
+
+
+input {
+  border-radius: 4px;
+  background-color: #C0C0C0;
+  font-family: monospace;
+}
+
+#board
+{
+	position: relative;
+	z-index: 2;	
+	width: 500px;
+	height: 500px;
+	margin: 20px auto;
+	background-color: #b938ff;
+}
+#grids
+{
+	display: grid;
+	grid-template-columns: repeat(20,1fr);
+	grid-template-rows: repeat(20,1fr);
+	height: inherit;
+	width: inherit;
+}
+
+.snake
+{
+	background-color: Indigo;
+}
+
+.apple
+{	
+	border-radius: 100px;
+	border: 1px solid DarkRed;
+	background-color: red;
+}
